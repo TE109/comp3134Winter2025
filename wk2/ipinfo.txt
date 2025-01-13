@@ -1,0 +1,69 @@
+	IP address	Type	Hosted by	Location
+157.240.22.35	IPv4	Hosted by Facebook, Inc. Facebook, Inc.	United States of America
+Facebook, Inc.
+Location	Santa Clara, California, United States of America
+AS	AS32934
+AS name	Facebook, Inc.
+2a03:2880:f131:83:face:b00c:0:25de	IPv6	Hosted by Facebook, Inc. Facebook, Inc.	United States of America
+Meta Platforms Ireland Limited
+Location	Santa Clara, California, United States of America
+AS	AS32934
+AS name	Facebook, Inc.
+
+	IP address	Type	Hosted by	Location
+34.149.46.130	IPv4	Hosted by Google LLC Google LLC	United States of America
+Google LLC
+Location	Kansas City, Missouri, United States of America
+AS	AS396982
+AS name	Google LLC
+
+	IP address	Type	Hosted by	Location
+69.48.216.7	IPv4	Hosted by Google LLC Google LLC	United States of America
+Uber Technologies, Inc
+Location	San Francisco, California, United States of America
+AS	AS396982
+AS name	Google LLC
+
+	IP address	Type	Hosted by	Location
+54.87.253.113	IPv4	Hosted by Amazon.com, Inc. Amazon.com, Inc.	United States of America
+Amazon Technologies Inc.
+Location	Ashburn, Virginia, United States of America
+AS	AS14618
+AS name	Amazon.com, Inc.
+54.197.142.136	IPv4	Hosted by Amazon.com, Inc. Amazon.com, Inc.	United States of America
+Amazon.com, Inc.
+Location	Ashburn, Virginia, United States of America
+AS	AS14618
+AS name	Amazon.com, Inc.
+2600:1f18:2265:c01:bff4:ab75:3abf:8025	IPv6	Hosted by Amazon.com, Inc. Amazon.com, Inc.	United States of America
+Amazon.com, Inc.
+Location	Ashburn, Virginia, United States of America
+AS	AS14618
+AS name	Amazon.com, Inc.
+2600:1f18:2265:c00:47b0:d3af:d43a:22b7	IPv6	Hosted by Amazon.com, Inc. Amazon.com, Inc.	United States of America
+Amazon.com, Inc.
+Location	Ashburn, Virginia, United States of America
+AS	AS14618
+AS name	Amazon.com, Inc.
+
+	IP address	Type	Hosted by	Location
+151.101.129.91	IPv4	Hosted by Fastly, Inc. Fastly, Inc.	United States of America
+Fastly, Inc.
+Location	San Francisco, California, United States of America
+AS	AS54113
+AS name	Fastly, Inc.
+151.101.65.91	IPv4	Hosted by Fastly, Inc. Fastly, Inc.	United States of America
+Fastly, Inc.
+Location	San Francisco, California, United States of America
+AS	AS54113
+AS name	Fastly, Inc.
+151.101.1.91	IPv4	Hosted by Fastly, Inc. Fastly, Inc.	United States of America
+Fastly, Inc.
+Location	San Francisco, California, United States of America
+AS	AS54113
+AS name	Fastly, Inc.
+151.101.193.91	IPv4	Hosted by Fastly, Inc. Fastly, Inc.	United States of America
+Fastly, Inc.
+Location	San Francisco, California, United States of America
+AS	AS54113
+AS name	Fastly, Inc.

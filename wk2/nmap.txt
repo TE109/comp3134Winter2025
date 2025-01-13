@@ -1,0 +1,34 @@
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# nmap georgebrown.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-01-13 20:54 UTC
+Nmap scan report for georgebrown.ca (198.96.86.176)
+Host is up (0.0015s latency).
+rDNS record for 198.96.86.176: impact.georgebrown.ca
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.89 seconds
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# nmap -p 8080 georgebrown.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-01-13 20:55 UTC
+Nmap scan report for georgebrown.ca (198.96.86.176)
+Host is up (0.0017s latency).
+rDNS record for 198.96.86.176: startgbc.com
+
+PORT     STATE    SERVICE
+8080/tcp filtered http-proxy
+
+Nmap done: 1 IP address (1 host up) scanned in 0.25 seconds
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# nmap -p 8080-8888 georgebrown.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-01-13 20:55 UTC
+Nmap scan report for georgebrown.ca (198.96.86.176)
+Host is up (0.00064s latency).
+rDNS record for 198.96.86.176: dmzrdr01.georgebrown.ca
+All 809 scanned ports on georgebrown.ca (198.96.86.176) are filtered
+
+Nmap done: 1 IP address (1 host up) scanned in 3.57 seconds
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# nmap -f georgebrown.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-01-13 20:55 UTC
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 3.04 seconds
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~#

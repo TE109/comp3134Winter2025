@@ -1,0 +1,93 @@
+$ ssh root@143.110.220.137
+The authenticity of host '143.110.220.137 (143.110.220.137)' can't be established.
+ED25519 key fingerprint is SHA256:PCUmLkYwd6FI7mi7cQlboftJyBtGtGw0f5vSf1aOKEY.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? y
+Please type 'yes', 'no' or the fingerprint: yes
+Warning: Permanently added '143.110.220.137' (ED25519) to the list of known hosts.
+root@143.110.220.137's password:
+Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 5.15.0-83-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Mon Jan 13 20:34:25 UTC 2025
+
+  System load:           0.013671875
+  Usage of /:            12.5% of 24.05GB
+  Memory usage:          63%
+  Swap usage:            0%
+  Processes:             106
+  Users logged in:       1
+  IPv4 address for eth0: 143.110.220.137
+  IPv4 address for eth0: 10.20.0.5
+  IPv6 address for eth0: 2604:a880:cad:d0::8851:7001
+  IPv4 address for eth1: 10.118.0.2
+
+Expanded Security Maintenance for Applications is not enabled.
+
+101 updates can be applied immediately.
+2 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+2 additional security updates can be applied with ESM Apps.
+Learn more about enabling ESM Apps service at https://ubuntu.com/esm
+
+New release '24.04.1 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+*** System restart required ***
+********************************************************************************
+
+Welcome to DigitalOcean's 1-Click LAMP Droplet.
+To keep this Droplet secure, the UFW firewall is enabled.
+All ports are BLOCKED except 22 (SSH), 80 (HTTP), and 443 (HTTPS).
+
+In a web browser, you can view:
+ * The LAMP 1-Click Quickstart guide: https://do.co/3gY97ha#start
+ * Your LAMP website: http://143.110.220.137
+
+On the server:
+ * The default web root is located at /var/www/html
+ * If you're using the embedded database, the MySQL root password
+   is saved in /root/.digitalocean_password. If you've opted in to
+   using a DBaaS instance with DigitalOcean, you will find your
+   credentials written to /root/.digitalocean_dbaas_credentials
+   and you will have access to a DATABASE_URL environment variable
+   holding your database connection string.
+ * Certbot is preinstalled. Run it to configure HTTPS. See
+   https://do.co/3gY97ha#enable-https for more detail.
+
+For help and more information, visit https://do.co/3gY97ha
+
+********************************************************************************
+To delete this message of the day: rm -rf /etc/update-motd.d/99-one-click
+Last login: Mon Jan 13 20:32:50 2025 from 198.211.111.194
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# apt-get update
+Hit:1 http://mirrors.digitalocean.com/ubuntu jammy InRelease
+Get:2 http://mirrors.digitalocean.com/ubuntu jammy-updates InRelease [128 kB]
+Get:3 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+Get:4 http://mirrors.digitalocean.com/ubuntu jammy-backports InRelease [127 kB]
+Hit:5 https://repos-droplet.digitalocean.com/apt/droplet-agent main InRelease
+Hit:6 https://ppa.launchpadcontent.net/ondrej/php/ubuntu jammy InRelease
+Get:7 http://mirrors.digitalocean.com/ubuntu jammy-updates/main amd64 Packages [2276 kB]
+Get:8 http://mirrors.digitalocean.com/ubuntu jammy-updates/universe amd64 Packages [1181 kB]
+Get:9 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [2040 kB]
+Get:10 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [959 kB]
+Fetched 6840 kB in 2s (2915 kB/s)
+Reading package lists... Done
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# apt-get install apache2-utils
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+apache2-utils is already the newest version (2.4.52-1ubuntu4.12).
+0 upgraded, 0 newly installed, 0 to remove and 92 not upgraded.
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# ping georgebrown.ca
+PING georgebrown.ca (198.96.86.176) 56(84) bytes of data.
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# ping georgebrown.ca -w 60
+PING georgebrown.ca (198.96.86.176) 56(84) bytes of data.
+^C
+--- georgebrown.ca ping statistics ---
+14 packets transmitted, 0 received, 100% packet loss, time 13305ms
