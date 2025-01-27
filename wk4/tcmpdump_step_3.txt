@@ -1,0 +1,25 @@
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+20:43:07.244172 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 162.243.188.66.21130: Flags [P.], seq 178080245:178080373, ack 76376472, win 502, options [nop,nop,TS val 1719190950 ecr 1713526338], length 128
+E.....@.@.jY.n.....B..R.
+.I...i............
+fx..f"VB.]gP..A.Ye.[ml5...............E~.*.b....8]B .70.......x.6.Y.U    Rv.2...P@..5.ngg@../.........Y.1:-.Vb..^...ho.@4.....8e.....3..g.
+20:43:07.244221 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 162.243.188.66.21130: Flags [P.], seq 128:192, ack 1, win 502, options [nop,nop,TS val 1719190950 ecr 1713526338], length 64
+E..t..@.@.j..n.....B..R.
+.Ju..i............
+fx..f"VB..gP...qka[.,@|...T6....^.....!2.`37B.q..g;G...U.dtX..-$.TJ.....
+20:43:07.244253 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 162.243.188.66.21130: Flags [P.], seq 192:272, ack 1, win 502, options [nop,nop,TS val 1719190950 ecr 1713526338], length 80
+E.....@.@.j..n.....B..R.
+.J...i............
+fx..f"VB....v|...."->..."....B.....)...K............Hi.`.P:.GPi.._..Z....E.N.......pF..8
+20:43:07.244282 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 162.243.188.66.21130: Flags [P.], seq 272:352, ack 1, win 502, options [nop,nop,TS val 1719190950 ecr 1713526338], length 80
+E.....@.@.j..n.....B..R.
+.K...i............
+fx..f"VB..a......7...>...../..M.K.Hk.....F<l./'..........N0y.)w9(?$.W...JK...P..`K.q...&
+20:43:07.244311 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 162.243.188.66.21130: Flags [P.], seq 352:432, ack 1, win 502, options [nop,nop,TS val 1719190950 ecr 1713526338], length 80
+E.....@.@.j..n.....B..R.
+.KU..i............
+fx..f"VB....}iHj.%GGd.^H3.wN.\.....p...`,......!}-^x...1T....Y...O........B.y..I.....h.T
+5 packets captured
+44 packets received by filter
+0 packets dropped by kernel

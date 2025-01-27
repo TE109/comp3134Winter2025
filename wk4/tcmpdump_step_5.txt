@@ -1,0 +1,61 @@
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+20:44:35.404338 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 162.243.188.66.21130: Flags [P.], seq 178088229:178088293, ack 76378184, win 502, options [nop,nop,TS val 1719279110 ecr 1713614500], length 64
+        0x0000:  fe00 0000 0101 ba2e dead 42a7 0800 4510  ..........B...E.
+        0x0010:  0074 04fc 4000 4006 6a4a 8f6e dc89 a2f3  .t..@.@.jJ.n....
+        0x0020:  bc42 0016 528a 0a9d 6925 048d 7048 8018  .B..R...i%..pH..
+        0x0030:  01f6 cb94 0000 0101 080a 667a 1e06 6623  ..........fz..f#
+        0x0040:  aea4 c82a d73b c241 cb41 f005 eef5 aa60  ...*.;.A.A.....`
+        0x0050:  a483 4241 41e4 2e7f 2e9c f3e4 7629 a497  ..BAA.......v)..
+        0x0060:  9944 6314 5bdf 63b4 8742 c09c 5b20 6eae  .Dc.[.c..B..[.n.
+        0x0070:  881f c6bd b36b d4f7 80db 61d6 718c aac1  .....k....a.q...
+        0x0080:  2d48                                     -H
+20:44:35.404982 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 162.243.188.66.21130: Flags [P.], seq 64:192, ack 1, win 502, options [nop,nop,TS val 1719279110 ecr 1713614500], length 128
+        0x0000:  fe00 0000 0101 ba2e dead 42a7 0800 4510  ..........B...E.
+        0x0010:  00b4 04fd 4000 4006 6a09 8f6e dc89 a2f3  ....@.@.j..n....
+        0x0020:  bc42 0016 528a 0a9d 6965 048d 7048 8018  .B..R...ie..pH..
+        0x0030:  01f6 cbd4 0000 0101 080a 667a 1e06 6623  ..........fz..f#
+        0x0040:  aea4 0ef5 02dd 46fe d8fd 0ade 64c6 5b4b  ......F.....d.[K
+        0x0050:  d5fa ba5e 537c 7667 ce81 18f9 2355 787d  ...^S|vg....#Ux}
+        0x0060:  7df0 1a70 c8e3 caa7 5459 69d6 520f 9138  }..p....TYi.R..8
+        0x0070:  48ba 4677 838a d755 c41a 1524 8c66 b751  H.Fw...U...$.f.Q
+        0x0080:  6de3 7db5 80db 45aa e06e a722 bcdf 8bf1  m.}...E..n."....
+        0x0090:  03ff aedb 3c72 dcaa e6df 14a0 78b4 09ac  ....<r......x...
+        0x00a0:  6d7e 2d34 3f3a f797 378b 3d8c 0501 3d9e  m~-4?:..7.=...=.
+        0x00b0:  2c49 89f0 c566 38c8 f9e1 0b84 4429 f189  ,I...f8.....D)..
+        0x00c0:  fda1                                     ..
+20:44:35.405025 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 162.243.188.66.21130: Flags [P.], seq 192:256, ack 1, win 502, options [nop,nop,TS val 1719279111 ecr 1713614500], length 64
+        0x0000:  fe00 0000 0101 ba2e dead 42a7 0800 4510  ..........B...E.
+        0x0010:  0074 04fe 4000 4006 6a48 8f6e dc89 a2f3  .t..@.@.jH.n....
+        0x0020:  bc42 0016 528a 0a9d 69e5 048d 7048 8018  .B..R...i...pH..
+        0x0030:  01f6 cb94 0000 0101 080a 667a 1e07 6623  ..........fz..f#
+        0x0040:  aea4 0513 8498 0290 4d22 9364 a889 ee3f  ........M".d...?
+        0x0050:  0834 04cf 9e06 8aad e1fd 6ca1 d796 4f78  .4........l...Ox
+        0x0060:  48c7 74e6 9995 0471 8c3a 86ae 2962 c21e  H.t....q.:..)b..
+        0x0070:  a644 249c 2acf a914 0a8c 17eb c3ba 1f49  .D$.*..........I
+        0x0080:  0bbf                                     ..
+20:44:35.405059 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 162.243.188.66.21130: Flags [P.], seq 256:336, ack 1, win 502, options [nop,nop,TS val 1719279111 ecr 1713614500], length 80
+        0x0000:  fe00 0000 0101 ba2e dead 42a7 0800 4510  ..........B...E.
+        0x0010:  0084 04ff 4000 4006 6a37 8f6e dc89 a2f3  ....@.@.j7.n....
+        0x0020:  bc42 0016 528a 0a9d 6a25 048d 7048 8018  .B..R...j%..pH..
+        0x0030:  01f6 cba4 0000 0101 080a 667a 1e07 6623  ..........fz..f#
+        0x0040:  aea4 5aef 03ef 7d45 cd28 20cf d5c3 5608  ..Z...}E.(....V.
+        0x0050:  ee3a bc3a 507b dc97 8f51 5bc0 9c37 3463  .:.:P{...Q[..74c
+        0x0060:  e5ad 7457 63f9 b2e8 a9e3 0ca7 4bfd d353  ..tWc.......K..S
+        0x0070:  9d5a 45be cc7e a6a0 031a 80fa 26f2 3e45  .ZE..~......&.>E
+        0x0080:  e51a 13a7 9194 39c6 59df ff84 b9af d602  ......9.Y.......
+        0x0090:  2631                                     &1
+20:44:35.405093 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 162.243.188.66.21130: Flags [P.], seq 336:416, ack 1, win 502, options [nop,nop,TS val 1719279111 ecr 1713614500], length 80
+        0x0000:  fe00 0000 0101 ba2e dead 42a7 0800 4510  ..........B...E.
+        0x0010:  0084 0500 4000 4006 6a36 8f6e dc89 a2f3  ....@.@.j6.n....
+        0x0020:  bc42 0016 528a 0a9d 6a75 048d 7048 8018  .B..R...ju..pH..
+        0x0030:  01f6 cba4 0000 0101 080a 667a 1e07 6623  ..........fz..f#
+        0x0040:  aea4 4852 8438 ad93 f74e fa39 89c4 dc7b  ..HR.8...N.9...{
+        0x0050:  9dd2 d7e8 b679 0f06 e256 5a1a 568d b504  .....y...VZ.V...
+        0x0060:  1289 0fc4 e592 9e4a 43aa c969 b0f3 09b5  .......JC..i....
+        0x0070:  a5ca 0de1 63f4 8f30 bcf4 5fd8 bde1 db32  ....c..0.._....2
+        0x0080:  319c 3e74 d6a1 23ac 6b36 777e 25b9 cce2  1.>t..#.k6w~%...
+        0x0090:  f3a5                                     ..
+5 packets captured
+45 packets received by filter
+0 packets dropped by kernel
