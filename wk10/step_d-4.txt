@@ -1,0 +1,4 @@
+The page is showing a raw array output that lists directories or folders from the server
+
+The page revels Directory Names and paths 
+

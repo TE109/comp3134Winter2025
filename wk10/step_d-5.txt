@@ -1,0 +1,4 @@
+The current directory, the parent directory and the name of the directory containing  the web files 
+
+this page revales the Directory Structure
+

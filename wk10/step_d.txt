@@ -1,0 +1,4 @@
+On the Browser I saw that there is no file or directory called hello 
+
+The sensitive information revealed is that the application uses the scandir() function
+

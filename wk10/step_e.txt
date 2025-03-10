@@ -1,0 +1,4 @@
+The code uses base name to display only the file name itself 
+
+The code uses file exists to see if the path exsists and if it dosnt display nothing 
+
