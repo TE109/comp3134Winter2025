@@ -1,0 +1,7 @@
+1) the page reloads 
+
+2) The page treats it like i submitted the form 
+
+3) the page treats it like it is a any other text 
+
+4) it cant find the page its looking for 
